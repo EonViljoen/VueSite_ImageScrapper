@@ -7,12 +7,10 @@ Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 import Home from './components/Home.vue'
-import test from './components/test'
 
 const router = new VueRouter({
   routes: [
-    {path: '/', component: Home},
-    {path: '/test', component: test}
+    {path: '/', component: Home}
   ]
 })
 
